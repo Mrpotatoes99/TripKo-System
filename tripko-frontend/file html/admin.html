@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripKo Pangasinan - Settings</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter:700,600,400" rel="stylesheet">
+    <link href="../file css/admin.css" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="bg-main">
+        <div class="container">
+            <!-- Main header -->
+            <header class="main-header">
+                <h1>Settings</h1>
+            </header>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <!-- Logo and title -->
+                <div class="logo-container">
+                    <div class="logo-circle">
+                        <img src="/vector-3.svg" alt="TripKo Logo" class="logo">
+                    </div>
+                    <h1>TripKo Pangasinan</h1>
+                </div>
+
+                <!-- Navigation menu -->
+                <nav class="nav-menu">
+                    <ul>
+                        <li><a href="#" class="nav-item">
+                            <i data-lucide="layout-dashboard"></i>
+                            <span>Dashboard</span>
+                        </a></li>
+                        <li><a href="#" class="nav-item">
+                            <i data-lucide="map-pin"></i>
+                            <span>Tourist Spots</span>
+                        </a></li>
+                        <li><a href="#" class="nav-item">
+                            <i data-lucide="map"></i>
+                            <span>Itineraries</span>
+                        </a></li>
+                        <li><a href="#" class="nav-item">
+                            <i data-lucide="truck"></i>
+                            <span>Transportation</span>
+                        </a></li>
+                        <li><a href="#" class="nav-item">
+                            <i data-lucide="bar-chart-2"></i>
+                            <span>Reports</span>
+                        </a></li>
+                        <li><a href="#" class="nav-item">
+                            <i data-lucide="users"></i>
+                            <span>Users</span>
+                        </a></li>
+                        <li><a href="#" class="nav-item active">
+                            <i data-lucide="settings"></i>
+                            <span>Settings</span>
+                        </a></li>
+                    </ul>
+                </nav>
+
+                <!-- Logout button -->
+                <button class="logout-btn">
+                    <i data-lucide="log-out"></i>
+                    Log Out
+                </button>
+            </aside>
+
+            <!-- Main content -->
+            <main class="main-content">
+                <div class="settings-cards">
+                    <div class="card">
+                        <button>General Settings</button>
+                    </div>
+                    <div class="card">
+                        <button>Account Management</button>
+                    </div>
+                    <div class="card">
+                        <button>Security & Permissions</button>
+                    </div>
+                    <div class="card">
+                        <button>System Logs</button>
+                    </div>
+                    <div class="card">
+                        <button>Backup & Restore</button>
+                    </div>
+                    <div class="card">
+                        <button>Notifications</button>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="../file js/admin.js"></script>
+</body>
+</html>
