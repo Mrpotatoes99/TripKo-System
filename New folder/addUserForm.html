@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="addUserForm-style.css">
+</head>
+<body>
+  <div class="form-container">
+    <form>
+      <div class="form-group">
+        <label for="last-name">Last Name</label>
+        <textarea rows="1" placeholder required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="first-name">First Name</label>
+        <textarea rows="1" placeholder required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="email-address">Email Address</label>
+        <textarea rows="1" placeholder required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="role">Role</label>
+        <select id="role" name="Role" required>
+          <option selected disabled option>
+          <option>User</option>
+          <option>Admin</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="status">Status</label>
+        <select id="status" name="status" required>
+          <option selected disabled option>
+          <option>Activated</option>
+          <option>Deactivated</option>
+        </select>
+      </div>
+
+      <div class="form-buttons">
+        <button type="button" class="btn cancel">Cancel</button>
+        <button type="submit" class="btn save">Save</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
