@@ -237,3 +237,13 @@ form{ width: 100%; }
 
     .toggle-panel h1{font-size: 30px; }
 }
+
+.error-message {
+    background-color: #ffe6e6;
+    color: #ff3333;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 10px 0;
+    font-size: 14px;
+    text-align: center;
+}
